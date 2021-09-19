@@ -45,7 +45,7 @@
     - Adobe illustrator
     - Figma
 
-Additions: Babel, Webpack, JSON, REST, AJAX, Gulp, Git, PHP (basics) + MySQL
+Additions: Babel, Webpack, JSON, REST, AJAX, Gulp, PHP + MySQL (basics), Git 
 
 >I hope I didn't miss anything... :)
 ----------
@@ -68,3 +68,7 @@ const smallestDivisor = (num) => {
 console.log(smallestDivisor(15)); //3
 ```
 ----------
+
+### Languages
+ * Russian - native speaker
+ * English - Intermediate (B1)
