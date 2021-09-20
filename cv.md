@@ -86,4 +86,4 @@ console.log(smallestDivisor(15)); //3
 
 ### Languages
  * Russian - native speaker
- * English - Intermediate (B1)
+ * English - [StreamLine Language School English test result](https://test.str.by/login/index.php): Intermediate (B1)
