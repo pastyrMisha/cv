@@ -68,6 +68,21 @@ const smallestDivisor = (num) => {
 console.log(smallestDivisor(15)); //3
 ```
 ----------
+## Work experience
+
+
+
+* Education
+    - Higher education, [ITMO University (Saint-Peterburg, Russia)](https://en.itmo.ru/), Cryogenic and conditioning faculty, alumnus (specialist)
+    - [CS50 (video course)](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
+    - [HTML Academy (prof. HTML, CSS 1,2 lvl; prof. JavaScript 1,2 lvl)](https://htmlacademy.ru/study)
+    - [Sololearn (profile)](https://www.sololearn.com/profile/16451784)
+    ![Sololearn-cert-1024-16451784](https://www.sololearn.com/Certificate/1024-16451784/jpg/)
+    - [Codewars (profile)](https://www.codewars.com/users/pastyrMisha)
+    - [Code-basics (HTML, CSS, JS)](https://ru.code-basics.com)
+    - [Hexlet (profile)](https://ru.hexlet.io/u/pastyrmisha)
+    - [Udemy (JS + React & Redux)](https://www.udemy.com/course/javascript_full/)  
+----------
 
 ### Languages
  * Russian - native speaker
