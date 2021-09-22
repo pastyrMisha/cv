@@ -89,7 +89,7 @@ console.log(smallestDivisor(15)); //3
 
 * Projects
     - CMS WordPress (+ ACF) my examples (real business site): [5stup.ru](https://5stup.ru/), [barbershop BARBERHOUSE](https://barberhouse.kz/), [lovezwedding](https://lovezwedding.ru/), [Zvendinova design](https://zvendinova.ru/) and many others
-    - Adaptive layout (BAM, HTML, CSS, JS + Php mailer): [TV's buying site](https://skuptv.ru/), [TV's repair site](https://tv-remservis.ru/)
+    - Adaptive layout (BAM, HTML, CSS, JS + Php mailer): [TV's buying site](https://skuptv.ru/) [(GitHub)](https://github.com/pastyrMisha/buyingTVs), [TV's repair site](https://tv-remservis.ru/) [(GitHub)](https://github.com/pastyrMisha/repairTVs)
     - Native JS: [budgetDay](https://zvendinov.ru/budgetDay/index.html), [Yoga (+ Webpack, Babel)](https://zvendinov.ru/Yoga/src/index.html)
     - React: ...
 
