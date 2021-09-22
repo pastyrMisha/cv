@@ -8,6 +8,23 @@
 * GitHub: [pastyrMisha](https://github.com/pastyrMisha)
 ----------
 
+### About Myself
+
+I began my IT career in 2016 I was doing it alongside my main job. I am the head of the energy dispatch group at the state enterprise "Vodokanal of St. Petersburg".
+I was making layouts of simple websites with WordPress CMS and customizing of ready-made Envato Market templates for the customers’ businesses. 
+Then I got interested in using WordPress custom fields to build layouts. At the same time, I started learning HTML, CSS, JavaScript and PHP by taking various courses. 
+So I started creating my own websites without using CMS, which were designed by my wife. We work well together. My wife and I even had our own business: creating websites of any complexity with unique designs and promoting them on the Internet.
+I received Backend lessons and tips from my brother. He works as a web developer in a large company "Vodopad", which sells sanitary equipment all over Russia.
+But I didn't stop there. I wanted something more. I wanted to have more knowledge of JavaScript and usage a large stack of technologies. I believe that it can only be achieved by working in a large company with a team of programmers. So, I started to study JavaScript on a more advanced level. On the advice of a close friend, who works as a React Native developer, I studied the library of React + Redux.
+Nowadays, you can learn anything if you really want to. There is a huge number of free high-quality resources for self-education. 
+
+I am very pedantic in my work. I am very thorough and I always pay attention to details. I never do anything carelessly. I want to know all the details and I always strive to get the perfect result. I always finish my work on time. 
+
+I am interested in web development because this profession provides endless opportunities for professional growth and a better future.
+
+----------
+
+
 ### Skills
 * HTML
     -
@@ -70,7 +87,11 @@ console.log(smallestDivisor(15)); //3
 ----------
 ## Work experience
 
-
+* Projects
+    - CMS WordPress (+ ACF) my examples (real business site): [5stup.ru](https://5stup.ru/), [barbershop BARBERHOUSE](https://barberhouse.kz/), [lovezwedding](https://lovezwedding.ru/), [Zvendinova design](https://zvendinova.ru/) and many others
+    - Adaptive layout (BAM, HTML, CSS, JS + Php mailer): [TV's buying site](https://skuptv.ru/), [TV's repair site](https://tv-remservis.ru/)
+    - Native JS: [budgetDay](https://zvendinov.ru/budgetDay/index.html), [Yoga (+ Webpack, Babel)](https://zvendinov.ru/Yoga/src/index.html)
+    - React: ...
 
 * Education
     - Higher education, [ITMO University (Saint-Peterburg, Russia)](https://en.itmo.ru/), Cryogenic and conditioning faculty, alumnus (specialist)
