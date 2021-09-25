@@ -91,7 +91,7 @@ console.log(smallestDivisor(15)); //3
     - CMS WordPress (+ ACF) my examples (real business' sites): [5stup.ru](https://5stup.ru/), [barbershop BARBERHOUSE](https://barberhouse.kz/), [lovezwedding](https://lovezwedding.ru/), [Zvendinova design](https://zvendinova.ru/) and many others
     - Adaptive layout (BAM, HTML, CSS, JS + Php mailer): [TV's buying site](https://skuptv.ru/) [(GitHub)](https://github.com/pastyrMisha/buyingTVs), [TV's repair site](https://tv-remservis.ru/) [(GitHub)](https://github.com/pastyrMisha/repairTVs)
     - Native JS: [budgetDay](https://zvendinov.ru/budgetDay), [Yoga (+ Webpack, Babel)](https://zvendinov.ru/Yoga/src)
-    - React: [socialNetwork](https://zvendinov.ru/social-network), [Game of Thrones (+ API)](https://zvendinov.ru/got)
+    - React: [socialNetwork](https://zvendinov.ru/social-network) [(GitHub)](https://github.com/pastyrMisha/Social-Network), [Game of Thrones (+ API)](https://zvendinov.ru/got) [(GitHub)](https://github.com/pastyrMisha/Game-of-Thrones), [Delivery (+ Redux)](https://zvendinov.ru/Delivery) [(GitHub)](https://github.com/pastyrMisha/Delivery)
 
 * Education
     - Higher education, [ITMO University (Saint-Peterburg, Russia)](https://en.itmo.ru/), Cryogenic and conditioning faculty, alumnus (specialist)
