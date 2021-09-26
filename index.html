@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Zvendinov CV</title>
+</head>
+
+<body>
+    <h1>Zvendinov Mikhail's CV</h1>
+    <h2>Contact information</h2>
+    <ul>
+        <li>
+            <p>Location: Saint-Peterburg, Russia</p>
+        </li>
+        <li>
+            <p>Phone: <a href="tel:+79216579718">+7 (921) 657-97-18</a></p>
+        </li>
+        <li>
+            <p>E-mail: <a href="mailto:m@zvendinov.ru">m@zvendinov.ru</a></p>
+        </li>
+        <li>
+            <p>GitHub: <a href="https://github.com/pastyrMisha">pastyrMisha</a></p>
+        </li>
+    </ul>
+    <hr>
+    <h3 style="font-size: 1.5em;">Skills</h3>
+    <hr>
+    <h3 style="font-size: 1.5em;">About Myself</h3>
+    <p>
+        I began my IT career in 2016 I was doing it alongside my main job. I am the head of the energy dispatch group at
+        the state enterprise "Vodokanal of St. Petersburg".<br>
+        I was making layouts of simple websites with WordPress CMS and customizing of ready-made Envato Market templates
+        for the customers’ businesses.<br>
+        Then I got interested in using WordPress custom fields to build layouts. At the same time, I started learning
+        HTML, CSS, JavaScript and PHP by taking various courses.<br>
+        So I started creating my own websites without using CMS, which were designed by my wife. We work well together.
+        My wife and I even had our own business: creating websites of any complexity with unique designs and promoting
+        them on the Internet.<br>
+        I received Backend lessons and tips from my brother. He works as a web developer in a large company "Vodopad",
+        which sells sanitary equipment all over Russia.<br>
+        But I didn't stop there. I wanted something more. I wanted to have more knowledge of JavaScript and usage a
+        large stack of technologies. I believe that it can only be achieved by working in a large company with a team of
+        programmers. So, I started to study JavaScript on a more advanced level. On the advice of a close friend, who
+        works as a React Native developer, I studied the library of React + Redux.<br>
+        Nowadays, you can learn anything if you really want to. There is a huge number of free high-quality resources
+        for self-education.<br><br>
+
+        I am very pedantic in my work. I am very thorough and I always pay attention to details. I never do anything
+        carelessly. I want to know all the details and I always strive to get the perfect result. I always finish my
+        work on time.<br><br>
+
+        I am interested in web development because this profession provides endless opportunities for professional
+        growth and a better future.
+    </p>
+    <ul>
+        <li class="caption">HTML
+            <ul>
+                <li>HTML5</li>
+                <li>BEM</li>
+                <li>SVG (XML)</li>
+            </ul>
+        </li>
+        <li class="caption">CSS
+            <ul>
+                <li>CSS3-animation</li>
+                <li>Bootstrap</li>
+                <li>Flexbox/Grid</li>
+                <li>SASS/SCSS, LESS, PostCSS</li>
+            </ul>
+        </li>
+        <li class="caption">JavaScript
+            <ul>
+                <li>Native, ES6+</li>
+                <li>jQuery</li>
+                <li>TypeScript</li>
+                <li>React JS + Redux</li>
+                <li>Mocha/Chai, Jest</li>
+            </ul>
+        </li>
+        <li class="caption">CMS
+            <ul>
+                <li>WordPress</li>
+                <li>OpenCart</li>
+                <li>Joomla!</li>
+            </ul>
+        </li>
+        <li class="caption">Internet Marketing
+            <ul>
+                <li>SEO optimization</li>
+                <li>Yandex.Direct</li>
+                <li>Google Adwords</li>
+                <li>Key Collector</li>
+            </ul>
+        </li>
+        <li class="caption">Design
+            <ul>
+                <li>Adobe Photoshop</li>
+                <li>Adobe illustrator</li>
+                <li>Figma</li>
+            </ul>
+        </li>
+        <li class="caption">Additions: Babel, Webpack, JSON, REST, AJAX, Gulp, PHP + MySQL (basics), Git</li>
+    </ul>
+    <span>>I hope I didn't miss anything... :)</span>
+    <hr>
+    <h3 style="font-size: 1.5em;">Code Examples</h3>
+    <span>Find smallest divisor (iterative process)</span>
+    <pre>
+        const smallestDivisor = (num) => {
+            if (num === 1) return 1;
+          
+            const iter = (acc, counter) => {
+              if (acc % counter === 0 || counter === acc) return counter;
+              return iter(acc, counter + 1);
+            };
+          
+            return iter(num, 2);
+          };
+          
+          console.log(smallestDivisor(15)); //3
+        </pre>
+    <hr>
+    <h2>Work experience</h2>
+    <ul>
+        <li class="caption">Projects
+            <ul>
+                <li>CMS WordPress (+ ACF) my examples (real business' sites):
+                    <ul>
+                        <li><a href="https://5stup.ru/" target="_blank">5stup.ru</a></li>
+                        <li><a href="https://barberhouse.kz/" target="_blank">barbershop BARBERHOUSE</a></li>
+                        <li><a href="https://lovezwedding.ru/" target="_blank">lovezwedding</a></li>
+                        <li><a href="https://zvendinova.ru/" target="_blank">Zvendinova design</a></li>
+                        <li>and many others...</li>
+                    </ul>
+                </li>
+                <li>Adaptive layout (BAM, HTML, CSS, JS + Php mailer):
+                    <ul>
+                        <li><a href="https://skuptv.ru/" target="_blank">TV's buying site</a><a
+                                href="https://github.com/pastyrMisha/buyingTVs" target="_blank"> (GitHub)</a></li>
+                        <li><a href="https://tv-remservis.ru/" target="_blank">TV's repair site</a><a
+                                href="https://github.com/pastyrMisha/repairTVs" target="_blank"> (GitHub)</a></li>
+                    </ul>
+                </li>
+                <li>Native JS:
+                    <ul>
+                        <li><a href="/budgetDay/" target="_blank">budgetDay</a><a
+                                href="https://github.com/pastyrMisha/budgetDay" target="_blank"> (GitHub)</a></li>
+                        <li><a href="/Yoga/src/" target="_blank">Yoga tour (+ Webpack, Babel)</a><a
+                                href="https://github.com/pastyrMisha/Yoga-tour-Webpack-Babel-" target="_blank">
+                                (GitHub)</a></li>
+                    </ul>
+                </li>
+                <li>React:
+                    <ul>
+                        <li><a href="/social-network" target="_blank">socialNetwork</a><a
+                                href="https://github.com/pastyrMisha/Social-Network" target="_blank"> (GitHub)</a></li>
+                        <li><a href="/got" target="_blank">Game of Thrones</a><a
+                                href="https://github.com/pastyrMisha/Game-of-Thrones" target="_blank"> (GitHub)</a></li>
+                        <li><a href="/Delivery" target="_blank">Delivery</a><a
+                                href="https://github.com/pastyrMisha/Delivery" target="_blank"> (GitHub)</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="caption">Education
+            <ul>
+                <li>
+                    <p>Higher education, <a href="https://en.itmo.ru/">ITMO University (Saint-Peterburg, Russia)</a>,
+                        Cryogenic Techniques and Air Conditioning faculty, alumnus (specialist)</p>
+                </li>
+                <li><a href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA">CS50 (video course)</a></li>
+                <li><a href="https://htmlacademy.ru/study">HTML Academy (prof. HTML, CSS 1,2 lvl; prof. JavaScript 1,2
+                        lvl)</a></li>
+                <li><a href="https://www.sololearn.com/profile/16451784">Sololearn (profile)</a><img
+                        src="https://www.sololearn.com/Certificate/1024-16451784/jpg/"
+                        alt="Sololearn-cert-1024-16451784" width="877" height="619"></li>
+                <li><a href="https://www.codewars.com/users/pastyrMisha">Codewars (profile)</a></li>
+                <li><a href="https://ru.code-basics.com">Code-basics (HTML, CSS, JS)</a></li>
+                <li><a href="https://ru.hexlet.io/u/pastyrmisha">Hexlet (profile)</a></li>
+                <li><a href="https://www.udemy.com/course/javascript_full/">Udemy (JS + React & Redux)</a></li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+    <h3 style="font-size: 1.5em;">Languages</h3>
+    <ul>
+        <li class="caption">Russian - native speaker</li>
+        <li class="caption">English - <a href="https://test.str.by/login/index.php">StreamLine Language School English
+                test result: Intermediate (B1)</a></li>
+    </ul>
+</body>
+
+</html>
