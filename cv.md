@@ -6,6 +6,7 @@
 * Phone: +7 (921) 657-97-18
 * E-mail: m@zvendinov.ru
 * GitHub: [pastyrMisha](https://github.com/pastyrMisha)
+
 ----------
 
 ### About Myself
@@ -65,6 +66,7 @@ I am interested in web development because this profession provides endless oppo
 Additions: Babel, Webpack, JSON, REST, AJAX, Gulp, PHP + MySQL (basics), Git 
 
 >I hope I didn't miss anything... :)
+
 ----------
 
 
@@ -84,6 +86,7 @@ const smallestDivisor = (num) => {
 
 console.log(smallestDivisor(15)); //3
 ```
+
 ----------
 ## Work experience
 
@@ -103,6 +106,7 @@ console.log(smallestDivisor(15)); //3
     - [Code-basics (HTML, CSS, JS)](https://ru.code-basics.com)
     - [Hexlet (profile)](https://ru.hexlet.io/u/pastyrmisha)
     - [Udemy (JS + React & Redux)](https://www.udemy.com/course/javascript_full/)  
+
 ----------
 
 ### Languages
