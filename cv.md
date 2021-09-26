@@ -6,9 +6,6 @@
 * Phone: +7 (921) 657-97-18
 * E-mail: m@zvendinov.ru
 * GitHub: [pastyrMisha](https://github.com/pastyrMisha)
-
-----------
-
 ### About Myself
 
 I began my IT career in 2016 I was doing it alongside my main job. I am the head of the energy dispatch group at the state enterprise "Vodokanal of St. Petersburg".
@@ -67,9 +64,6 @@ Additions: Babel, Webpack, JSON, REST, AJAX, Gulp, PHP + MySQL (basics), Git
 
 >I hope I didn't miss anything... :)
 
-----------
-
-
 ### Code Examples
 *Find smallest divisor (iterative process)*
 ```javascript 
@@ -106,8 +100,6 @@ console.log(smallestDivisor(15)); //3
     - [Code-basics (HTML, CSS, JS)](https://ru.code-basics.com)
     - [Hexlet (profile)](https://ru.hexlet.io/u/pastyrmisha)
     - [Udemy (JS + React & Redux)](https://www.udemy.com/course/javascript_full/)  
-
-----------
 
 ### Languages
  * Russian - native speaker
