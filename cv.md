@@ -94,7 +94,7 @@ console.log(smallestDivisor(15)); //3
     - React: [socialNetwork](https://zvendinov.ru/social-network) [(GitHub)](https://github.com/pastyrMisha/Social-Network), [Game of Thrones (+ API)](https://zvendinov.ru/got) [(GitHub)](https://github.com/pastyrMisha/Game-of-Thrones), [Delivery (+ Redux)](https://zvendinov.ru/Delivery) [(GitHub)](https://github.com/pastyrMisha/Delivery)
 
 * Education
-    - Higher education, [ITMO University (Saint-Peterburg, Russia)](https://en.itmo.ru/), Cryogenic and conditioning faculty, alumnus (specialist)
+    - Higher education, [ITMO University (Saint-Peterburg, Russia)](https://en.itmo.ru/), Cryogenic Techniques and Air Conditioning faculty, alumnus (specialist)
     - [CS50 (video course)](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
     - [HTML Academy (prof. HTML, CSS 1,2 lvl; prof. JavaScript 1,2 lvl)](https://htmlacademy.ru/study)
     - [Sololearn (profile)](https://www.sololearn.com/profile/16451784)
