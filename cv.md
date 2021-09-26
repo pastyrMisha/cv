@@ -1,11 +1,11 @@
 # **Mikhail Zvendinov**
 
 ## Contact information
-
 * Location: Saint-Peterburg, Russia
 * Phone: +7 (921) 657-97-18
 * E-mail: m@zvendinov.ru
 * GitHub: [pastyrMisha](https://github.com/pastyrMisha)
+
 ### About Myself
 
 I began my IT career in 2016 I was doing it alongside my main job. I am the head of the energy dispatch group at the state enterprise "Vodokanal of St. Petersburg".
@@ -20,42 +20,37 @@ I am very pedantic in my work. I am very thorough and I always pay attention to 
 
 I am interested in web development because this profession provides endless opportunities for professional growth and a better future.
 
-----------
-
-
 ### Skills
-* HTML
-    -
+* HTML:
     - HTML5
     - BEM
     - SVG (XML)
-* CSS
-    -
+
+* CSS:
     - CSS3-animation
     - Bootstrap
     - Flexbox/Grid
     - SASS/SCSS, LESS, PostCSS
-* JavaScript
-    -
+
+* JavaScript:
     - Native, ES6+
     - jQuery
     - TypeScript
     - React JS + Redux
     - Mocha/Chai, Jest
-* CMS
-    -
+
+* CMS:
     - WordPress
     - OpenCart
     - Joomla!
-* Internet Marketing
-    -
+
+* Internet Marketing:
     - SEO optimization
     - Yandex.Direct
     - Google Adwords
     - Key Collector
 
-* Design
-    -
+* Design:
     - Adobe Photoshop 
     - Adobe illustrator
     - Figma
@@ -66,6 +61,7 @@ Additions: Babel, Webpack, JSON, REST, AJAX, Gulp, PHP + MySQL (basics), Git
 
 ### Code Examples
 *Find smallest divisor (iterative process)*
+
 ```javascript 
 const smallestDivisor = (num) => {
   if (num === 1) return 1;
@@ -84,13 +80,13 @@ console.log(smallestDivisor(15)); //3
 ----------
 ## Work experience
 
-* Projects
+* Projects:
     - CMS WordPress (+ ACF) my examples (real business' sites): [5stup.ru](https://5stup.ru/), [barbershop BARBERHOUSE](https://barberhouse.kz/), [lovezwedding](https://lovezwedding.ru/), [Zvendinova design](https://zvendinova.ru/) and many others
     - Adaptive layout (BAM, HTML, CSS, JS + Php mailer): [TV's buying site](https://skuptv.ru/) [(GitHub)](https://github.com/pastyrMisha/buyingTVs), [TV's repair site](https://tv-remservis.ru/) [(GitHub)](https://github.com/pastyrMisha/repairTVs)
     - Native JS: [budgetDay](https://zvendinov.ru/budgetDay), [Yoga (+ Webpack, Babel)](https://zvendinov.ru/Yoga/src)
     - React: [socialNetwork](https://zvendinov.ru/social-network) [(GitHub)](https://github.com/pastyrMisha/Social-Network), [Game of Thrones (+ API)](https://zvendinov.ru/got) [(GitHub)](https://github.com/pastyrMisha/Game-of-Thrones), [Delivery (+ Redux)](https://zvendinov.ru/Delivery) [(GitHub)](https://github.com/pastyrMisha/Delivery)
 
-* Education
+* Education:
     - Higher education, [ITMO University (Saint-Peterburg, Russia)](https://en.itmo.ru/), Cryogenic Techniques and Air Conditioning faculty, alumnus (specialist)
     - [CS50 (video course)](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
     - [HTML Academy (prof. HTML, CSS 1,2 lvl; prof. JavaScript 1,2 lvl)](https://htmlacademy.ru/study)
