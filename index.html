@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/fav/32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/fav/16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fav/32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fav/16x16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -33,7 +33,7 @@
             <div class="header-info-head">
                 <h1 class="header-info-head__name">Mikhail<br> Zvendinov</h1>
                 <p class="header-info-head__pro">JavaScript/Front-end developer</p>
-                <img class="header-info-head__avatar" src="/img/ava.jpg" alt="avatar" width="400">
+                <img class="header-info-head__avatar" src="img/ava.jpg" alt="avatar" width="400">
             </div>
             <div class="header-info-contacts">
                 <h2 class="header-info-contacts__title">Contact information</h2>
@@ -97,55 +97,75 @@
             </p>
         </div>
         <div class="about-skills">
-            <h3 class="about-skills__title" style="font-size: 1.5em;">Skills</h3>
-            <h5 class="about-skills__subtitle">HTML</h5>
-            <ul class="about-skills__list">
-                <li class="about-skills__list-item">HTML5</li>
-                <li class="about-skills__list-item">BEM</li>
-                <li class="about-skills__list-item">SVG (XML)</li>
-            </ul>
+            <h3 class="about-skills-title" style="font-size: 1.5em;">Skills</h3>
+            <div class="about-skills-part">
+                <img src="img/html.png" alt="HTML" class="about-skills-part__pic" width="60">
+                <h5 class="about-skills-part__title">HTML</h5>
+                <ul class="about-skills-part__list">
+                    <li class="about-skills__list-item">HTML5</li>
+                    <li class="about-skills__list-item">BEM</li>
+                    <li class="about-skills__list-item">SVG (XML)</li>
+                </ul>
+            </div>
+            <div class="about-skills-part">
+                <img src="img/css-3.png" alt="CSS3" class="about-skills-part__pic" width="60">
+                <h5 class="about-skills-part__title">CSS</h5>
+                <ul class="about-skills-part__list">
+                    <li class="about-skills__list-item">CSS3-animation</li>
+                    <li class="about-skills__list-item">Bootstrap</li>
+                    <li class="about-skills__list-item">Flexbox/Grid</li>
+                    <li class="about-skills__list-item">SASS/SCSS, LESS, PostCSS</li>
+                </ul>
+            </div>
+            <div class="about-skills-part">
+                <img src="img/javascript.png" alt="JS" class="about-skills-part__pic" width="60">
+                <h5 class="about-skills-part__title">JavaScript</h5>
+                <ul class="about-skills-part__list">
+                    <li class="about-skills__list-item">Native, ES6+</li>
+                    <li class="about-skills__list-item">jQuery</li>
+                    <li class="about-skills__list-item">TypeScript</li>
+                    <li class="about-skills__list-item">React JS + Redux</li>
+                    <li class="about-skills__list-item">Mocha/Chai, Jest</li>
+                </ul>
+            </div>
+            <div class="about-skills-part">
+                <img src="img/cms.png" alt="CMS" class="about-skills-part__pic" width="60">
+                <h5 class="about-skills-part__title">CMS</h5>
+                <ul class="about-skills-part__list">
+                    <li class="about-skills__list-item">WordPress</li>
+                    <li class="about-skills__list-item">OpenCart</li>
+                    <li class="about-skills__list-item">Joomla!</li>
+                </ul>
+            </div>
 
-            <h5 class="about-skills__subtitle">CSS</h5>
-            <ul>
-                <li class="about-skills__list-item">CSS3-animation</li>
-                <li class="about-skills__list-item">Bootstrap</li>
-                <li class="about-skills__list-item">Flexbox/Grid</li>
-                <li class="about-skills__list-item">SASS/SCSS, LESS, PostCSS</li>
-            </ul>
+            <div class="about-skills-part">
+                <img src="img/bullhorn.png" alt="Internet Marketing" class="about-skills-part__pic" width="60">
+                <h5 class="about-skills-part__title">Internet Marketing</h5>
+                <ul class="about-skills-part__list">
+                    <li class="about-skills__list-item">SEO optimization</li>
+                    <li class="about-skills__list-item">Yandex.Direct</li>
+                    <li class="about-skills__list-item">Google Adwords</li>
+                    <li class="about-skills__list-item">Key Collector</li>
+                </ul>
+            </div>
+            <div class="about-skills-part">
+                <img src="img/computer.png" alt="html" class="about-skills-part__pic" width="60">
+                <h5 class="about-skills-part__title">Design</h5>
+                <ul class="about-skills-part__list">
+                    <li class="about-skills__list-item">Adobe Photoshop</li>
+                    <li class="about-skills__list-item">Adobe illustrator</li>
+                    <li class="about-skills__list-item">Figma</li>
+                </ul>
+            </div>
+            <div class="about-skills-addition">
 
-            <h5 class="about-skills__subtitle">JavaScript</h5>
-            <ul>
-                <li class="about-skills__list-item">Native, ES6+</li>
-                <li class="about-skills__list-item">jQuery</li>
-                <li class="about-skills__list-item">TypeScript</li>
-                <li class="about-skills__list-item">React JS + Redux</li>
-                <li class="about-skills__list-item">Mocha/Chai, Jest</li>
-            </ul>
-
-            <h5 class="about-skills__subtitle">CMS</h5>
-            <ul>
-                <li class="about-skills__list-item">WordPress</li>
-                <li class="about-skills__list-item">OpenCart</li>
-                <li class="about-skills__list-item">Joomla!</li>
-            </ul>
-            <h5 class="about-skills__subtitle">Internet Marketing</h5>
-            <ul>
-                <li class="about-skills__list-item">SEO optimization</li>
-                <li class="about-skills__list-item">Yandex.Direct</li>
-                <li class="about-skills__list-item">Google Adwords</li>
-                <li class="about-skills__list-item">Key Collector</li>
-            </ul>
-
-            <h5 class="about-skills__subtitle">Design</h5>
-            <ul>
-                <li class="about-skills__list-item">Adobe Photoshop</li>
-                <li class="about-skills__list-item">Adobe illustrator</li>
-                <li class="about-skills__list-item">Figma</li>
-            </ul>
-
-            <h5 class="about-skills__subtitle">Additions: Babel, Webpack, JSON, REST, AJAX, Gulp, PHP + MySQL
-                (basics), Git</h5>
-            <h6 class="about-skills__addition">&gt;I hope I didn't miss anything... :)</h6>
+                <img src="img/programing.png" alt="Programming" class="about-skills-addition__pic" width="60">
+                <h5 class="about-skills-addition__title">Additions: Babel, Webpack, JSON, REST, AJAX, Gulp, PHP + MySQL
+                    (basics), Git</h5>
+            </div>
+                    <div class="about-skills-addition">
+                <h6 class="about-skills-addition__subtitle">&gt;I hope I didn't miss anything... :)</h6>
+            </div>
         </div>
     </section>
     <!-- / about -->
@@ -174,7 +194,7 @@
     <!-- experience -->
     <section class="experience">
         <h2 class="experience__title">Work experience</h2>
-        <div  id="experience" class="experience-project">
+        <div id="experience" class="experience-project">
             <h4 class="experience-project__title">Projects</h4>
             <div class="experience-project__part">
                 <p class="experience-project__part-subtitle">CMS WordPress (+ ACF) my examples (real business' sites):
@@ -257,10 +277,7 @@
                         JavaScript
                         1,2
                         lvl)</a></li>
-                <li class="experience-education__list-item"><a href="https://www.sololearn.com/profile/16451784"
-                        target="_blank" class="experience-education__list-item__link">Sololearn (profile)</a><img
-                        src="https://www.sololearn.com/Certificate/1024-16451784/jpg/"
-                        alt="Sololearn-cert-1024-16451784" width="877" height="619"></li>
+               
                 <li class="experience-education__list-item"><a href="https://www.codewars.com/users/pastyrMisha"
                         target="_blank" class="experience-education__list-item__link">Codewars (profile)</a></li>
                 <li class="experience-education__list-item"><a href="https://ru.code-basics.com" target="_blank"
@@ -270,6 +287,10 @@
                 <li class="experience-education__list-item"><a href="https://www.udemy.com/course/javascript_full/"
                         target="_blank" class="experience-education__list-item__link">Udemy (JS + React & Redux)</a>
                 </li>
+                <li class="experience-education__list-item"><a href="https://www.sololearn.com/profile/16451784"
+                    target="_blank" class="experience-education__list-item__link">Sololearn (profile)</a><img
+                    src="https://www.sololearn.com/Certificate/1024-16451784/jpg/"
+                    alt="Sololearn-cert-1024-16451784" width="877" height="619"></li>
             </ul>
         </div>
 
