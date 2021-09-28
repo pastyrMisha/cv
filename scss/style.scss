@@ -15,6 +15,11 @@ $h4-size: 18px;
 $h5-size: 16px;
 $h6-size: 14px;
 
+$sticker: #f9ebd9;
+$title: #e0d0e3;
+$background: #9d63a6;
+$overlay: #bca4ce;
+
 $screen-xs: 375px;
 $screen-sm: 576px;
 $screen-md: 768px;
@@ -39,7 +44,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
     // grid-template-rows: 400px 100px 400px 100px 400px 100px 100px 400px 200px 200px;
-    grid-template-rows: 4fr 1fr 4fr 1fr 4fr 1fr 1fr 4fr 2fr 2fr;
+    grid-template-rows: 4fr 1fr 4fr 1fr 4fr 1fr 1fr 4fr 3fr 2fr;
 }
 
 img {
@@ -120,7 +125,7 @@ ul {
         grid-row-end: 4;
         display: grid;
         grid-template-columns: 1fr 2fr;
-        grid-template-rows: 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
 
         &-head {
             grid-column-start: 1;
@@ -129,13 +134,17 @@ ul {
             grid-row-end: 2;
             display: grid;
             grid-template-columns: 1fr 2fr;
-            grid-template-rows: 1fr 2fr;
+            grid-template-rows: 1fr 1fr;
 
             &__name {
                 grid-column-start: 2;
                 grid-column-end: 3;
                 grid-row-start: 1;
                 grid-row-end: 2;
+                margin-bottom: 0;
+                padding-left: 60px;
+                align-self: flex-end;
+
             }
 
             &__pro {
@@ -143,6 +152,9 @@ ul {
                 grid-column-end: 3;
                 grid-row-start: 2;
                 grid-row-end: 3;
+                font-size: $h2-size;
+                margin-top: 10px;
+                padding-left: 60px;
             }
 
             &__avatar {
@@ -157,7 +169,42 @@ ul {
             grid-column-start: 1;
             grid-column-end: 2;
             grid-row-start: 2;
-            grid-row-end: 3;
+            grid-row-end: 4;
+            background: $overlay;
+
+            &__title {
+                background: $title;
+                position: relative;
+                color: #fff;
+
+                &::before {
+                    position: absolute;
+                    content: '';
+                    background: $sticker;
+                    height: 100%;
+                    width: 30px;
+                }
+
+                h2 {
+                    margin: 60px 0 30px 0;
+                    padding: 10px 0 10px 60px;
+                }
+            }
+
+            &__list {
+                padding-left: 60px;
+                color: #fff;
+
+                a {
+                    color: #fff;
+                }
+
+                &-item {
+                    &__subtitle {
+                        margin: 20px 0;
+                    }
+                }
+            }
         }
 
     }
@@ -181,10 +228,31 @@ ul {
         grid-row-start: 1;
         grid-row-end: 2;
 
+        &__title {
+            background: $title;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                content: '';
+                background: $sticker;
+                height: 100%;
+                width: 20px;
+            }
+
+            h3 {
+                font-size: $h2-size;
+                margin: 0 0 30px 0;
+                padding: 10px 0 10px 60px;
+            }
+        }
+
         &__info {
-            overflow-y: scroll;
             height: 500px;
-            line-height: 1.2;
+            overflow-y: scroll;
+            margin: 0;
+            line-height: 22px;
+            padding: 0 60px;
         }
     }
 
@@ -223,7 +291,7 @@ ul {
 
             &:last-child {
                 width: 20%;
-                
+
 
             }
 
@@ -247,6 +315,43 @@ ul {
     grid-column-end: 2;
     grid-row-start: 7;
     grid-row-end: 9;
+    background: $overlay;
+    padding-top: 60px;
+    color: #fff;
+    &__title {
+        background: $title;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: '';
+            background: $sticker;
+            height: 100%;
+            width: 30px;
+        }
+
+        h3 {
+            color: #fff;
+            font-size: $h2-size;
+            margin: 0 0 10px 0;
+            padding: 10px 0 10px 60px;
+        }
+    }
+    &__subtitle {
+        display: inline-block;
+        font-weight: 300;
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 0 60px;
+        word-wrap: wrap;
+    }
+    &__example {
+        font-weight: 300;
+        border: 2px solid $sticker;
+        padding: 10px;
+        margin: 0 50px;
+        word-wrap: none;
+    }
 }
 
 // === / code ===
@@ -258,13 +363,60 @@ ul {
     grid-row-end: 10;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 500px 100px 100px 400px 200px;
+    grid-template-rows: 500px 100px 100px 400px 300px;
 
     &-education {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 3;
+        background: $background;
+        color: #fff;
+        padding-top: 60px;
+
+        &__title {
+            background: $title;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                content: '';
+                background: $sticker;
+                height: 100%;
+                width: 30px;
+            }
+
+            h4 {
+                color: #fff;
+                font-size: $h2-size;
+                margin: 0 0 30px 0;
+                padding: 10px 0 10px 60px;
+            }
+        }
+
+        &__list {
+            margin: 0;
+            padding: 0 60px;
+
+            &-item {
+                margin: 20px 0;
+
+                &__subtitle {
+                    margin: 0;
+                }
+
+                &__link {
+                    color: #fff;
+                }
+
+                img {
+                    cursor: pointer;
+                    margin-top: 10px;
+                    width: 50%;
+
+                }
+            }
+        }
     }
 
     &__title {
@@ -286,6 +438,37 @@ ul {
         grid-column-end: 2;
         grid-row-start: 5;
         grid-row-end: 6;
+        background: $background;
+        padding-top: 60px;
+        &__title {
+            background: $title;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: '';
+            background: $sticker;
+            height: 100%;
+            width: 30px;
+        }
+
+        h3 {
+            color: #fff;
+            font-size: $h2-size;
+            margin: 0 0 30px 0;
+            padding: 10px 0 10px 60px;
+        }
+        }
+        &__list {
+            color: #fff;
+            padding: 0 60px;
+            &-item {
+                margin: 20px 0;
+            a {
+                color: #fff;
+            }
+        }
+        }
     }
 
 }

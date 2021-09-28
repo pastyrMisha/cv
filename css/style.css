@@ -209,7 +209,7 @@ body {
   font-size: 16px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 4fr 1fr 4fr 1fr 4fr 1fr 1fr 4fr 2fr 2fr;
+  grid-template-rows: 4fr 1fr 4fr 1fr 4fr 1fr 1fr 4fr 3fr 2fr;
 }
 
 img {
@@ -284,7 +284,7 @@ ul {
   grid-row-end: 4;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
 }
 .header-info-head {
   grid-column-start: 1;
@@ -293,19 +293,25 @@ ul {
   grid-row-end: 2;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
 }
 .header-info-head__name {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+  margin-bottom: 0;
+  padding-left: 60px;
+  align-self: flex-end;
 }
 .header-info-head__pro {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  font-size: 24px;
+  margin-top: 10px;
+  padding-left: 60px;
 }
 .header-info-head__avatar {
   grid-column-start: 1;
@@ -317,7 +323,34 @@ ul {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-end: 4;
+  background: #bca4ce;
+}
+.header-info-contacts__title {
+  background: #e0d0e3;
+  position: relative;
+  color: #fff;
+}
+.header-info-contacts__title::before {
+  position: absolute;
+  content: "";
+  background: #f9ebd9;
+  height: 100%;
+  width: 30px;
+}
+.header-info-contacts__title h2 {
+  margin: 60px 0 30px 0;
+  padding: 10px 0 10px 60px;
+}
+.header-info-contacts__list {
+  padding-left: 60px;
+  color: #fff;
+}
+.header-info-contacts__list a {
+  color: #fff;
+}
+.header-info-contacts__list-item__subtitle {
+  margin: 20px 0;
 }
 
 .about {
@@ -335,10 +368,28 @@ ul {
   grid-row-start: 1;
   grid-row-end: 2;
 }
+.about-biography__title {
+  background: #e0d0e3;
+  position: relative;
+}
+.about-biography__title::before {
+  position: absolute;
+  content: "";
+  background: #f9ebd9;
+  height: 100%;
+  width: 20px;
+}
+.about-biography__title h3 {
+  font-size: 24px;
+  margin: 0 0 30px 0;
+  padding: 10px 0 10px 60px;
+}
 .about-biography__info {
-  overflow-y: scroll;
   height: 500px;
-  line-height: 1.2;
+  overflow-y: scroll;
+  margin: 0;
+  line-height: 22px;
+  padding: 0 60px;
 }
 .about-skills {
   grid-column-start: 2;
@@ -386,6 +437,41 @@ ul {
   grid-column-end: 2;
   grid-row-start: 7;
   grid-row-end: 9;
+  background: #bca4ce;
+  padding-top: 60px;
+  color: #fff;
+}
+.code__title {
+  background: #e0d0e3;
+  position: relative;
+}
+.code__title::before {
+  position: absolute;
+  content: "";
+  background: #f9ebd9;
+  height: 100%;
+  width: 30px;
+}
+.code__title h3 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  padding: 10px 0 10px 60px;
+}
+.code__subtitle {
+  display: inline-block;
+  font-weight: 300;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 0 60px;
+  word-wrap: wrap;
+}
+.code__example {
+  font-weight: 300;
+  border: 2px solid #f9ebd9;
+  padding: 10px;
+  margin: 0 50px;
+  word-wrap: none;
 }
 
 .experience {
@@ -395,13 +481,51 @@ ul {
   grid-row-end: 10;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 500px 100px 100px 400px 200px;
+  grid-template-rows: 500px 100px 100px 400px 300px;
 }
 .experience-education {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 3;
+  background: #9d63a6;
+  color: #fff;
+  padding-top: 60px;
+}
+.experience-education__title {
+  background: #e0d0e3;
+  position: relative;
+}
+.experience-education__title::before {
+  position: absolute;
+  content: "";
+  background: #f9ebd9;
+  height: 100%;
+  width: 30px;
+}
+.experience-education__title h4 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 0 30px 0;
+  padding: 10px 0 10px 60px;
+}
+.experience-education__list {
+  margin: 0;
+  padding: 0 60px;
+}
+.experience-education__list-item {
+  margin: 20px 0;
+}
+.experience-education__list-item__subtitle {
+  margin: 0;
+}
+.experience-education__list-item__link {
+  color: #fff;
+}
+.experience-education__list-item img {
+  cursor: pointer;
+  margin-top: 10px;
+  width: 50%;
 }
 .experience__title {
   grid-column-start: 2;
@@ -420,6 +544,35 @@ ul {
   grid-column-end: 2;
   grid-row-start: 5;
   grid-row-end: 6;
+  background: #9d63a6;
+  padding-top: 60px;
+}
+.experience-languages__title {
+  background: #e0d0e3;
+  position: relative;
+}
+.experience-languages__title::before {
+  position: absolute;
+  content: "";
+  background: #f9ebd9;
+  height: 100%;
+  width: 30px;
+}
+.experience-languages__title h3 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 0 30px 0;
+  padding: 10px 0 10px 60px;
+}
+.experience-languages__list {
+  color: #fff;
+  padding: 0 60px;
+}
+.experience-languages__list-item {
+  margin: 20px 0;
+}
+.experience-languages__list-item a {
+  color: #fff;
 }
 
 .footer {
