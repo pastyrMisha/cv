@@ -33,8 +33,8 @@
             <div class="header-info-head">
                 <h1 class="header-info-head__name">Mikhail<br> Zvendinov</h1>
                 <p class="header-info-head__pro">JavaScript / Front-end developer</p>
-                <img class="header-info-head__avatar" src="img/ava.jpg" alt="avatar" width="400">
-            </div>
+                <img class="header-info-head__avatar" src="img/ava.jpg" alt="avatar" width="400" />
+                </div>
             <div class="header-info-contacts">
                 <div class="header-info-contacts__title">
                 <h2>Contact information</h2>
@@ -101,7 +101,9 @@
             </p>
         </div>
         <div class="about-skills">
-            <h3 class="about-skills-title" style="font-size: 1.5em;">Skills</h3>
+            <div class="about-skills-title">
+            <h3>Skills</h3>
+        </div>
             <div class="about-skills-part">
                 <img src="img/html.png" alt="HTML" class="about-skills-part__pic" width="60">
                 <h5 class="about-skills-part__title">HTML</h5>
@@ -112,7 +114,7 @@
                 </ul>
             </div>
             <div class="about-skills-part">
-                <img src="img/css-3.png" alt="CSS3" class="about-skills-part__pic" width="60">
+                <img src="img/css.svg" alt="CSS3" class="about-skills-part__pic" width="60">
                 <h5 class="about-skills-part__title">CSS</h5>
                 <ul class="about-skills-part__list">
                     <li class="about-skills__list-item">CSS3-animation</li>
@@ -182,17 +184,17 @@
         <div class="code__example">
             <code class="code__example-item">
                 const smallestDivisor = (num) => {<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;if (num === 1) return 1;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;if (num === 1) return 1;<br><br>
                 &nbsp;&nbsp;&nbsp;&nbsp;const iter = (acc, counter) => {<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (acc % counter === 0 || counter === acc) return
                 counter;<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return iter(acc, counter + 1);<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;};
-                <br>
+                <br><br>
                 &nbsp;&nbsp;&nbsp;&nbsp;return iter(num, 2);<br>
                 };
-                <br>
-                console.log(smallestDivisor(15)); //3
+                <br><br>
+                console.log(smallestDivisor(15));
             </code>
         </div>
         <!-- / code -->
@@ -200,10 +202,9 @@
     <!-- experience -->
     <section class="experience">
         <div class="experience__title">
-        <h2>Work experience</h2>
+        <h2>My Projects</h2>
     </div>
         <div id="experience" class="experience-project">
-            <h4 class="experience-project__title">Projects</h4>
             <div class="experience-project__part">
                 <p class="experience-project__part-subtitle">CMS WordPress (+ ACF) my examples (real business' sites):
                 </p>
