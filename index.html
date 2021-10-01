@@ -33,7 +33,7 @@
             <div class="header-info-head">
                 <h1 class="header-info-head__name">Mikhail<br> Zvendinov</h1>
                 <p class="header-info-head__pro">JavaScript / Front-end developer</p>
-                <img class="header-info-head__avatar" src="img/ava.jpg" alt="avatar" width="400" />
+                <div class="header-info-head__avatar" ><img src="img/ava.jpg" alt="avatar" /></div>
             </div>
             <div class="header-info-contacts">
                 <div class="header-info-contacts__title">
@@ -187,7 +187,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;if (num === 1) return 1;<br><br>
                 &nbsp;&nbsp;&nbsp;&nbsp;const iter = (acc, counter) => {<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (acc % counter === 0 || counter === acc) return
-                counter;<br>
+                counter;<br><br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return iter(acc, counter + 1);<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;};
                 <br><br>

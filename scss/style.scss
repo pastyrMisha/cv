@@ -41,7 +41,7 @@ $screen-xl-max: 1499px;
 body {
     font-size: 16px;
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-auto-columns: minmax(300px, 400px) minmax(400px, 800px);
     // grid-template-rows: 3fr 2fr 1fr 1fr 4fr 1fr 3fr 2fr 1fr;
     grid-template-rows: 90px 310px 90px 390px 200px 100px 500px 100px 500px 310px 90px;
 }
@@ -100,7 +100,7 @@ ul {
     grid-row-start: 1;
     grid-row-end: 5;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-auto-columns: minmax(300px, 400px) minmax(400px, 800px);
     grid-template-rows: 90px 310px 90px 390px;
 
 
@@ -126,7 +126,7 @@ ul {
         grid-row-start: 2;
         grid-row-end: 5;
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-auto-columns: inherit;
         grid-template-rows: 310px 90px 390px;
 
         &-head {
@@ -135,8 +135,8 @@ ul {
             grid-row-start: 1;
             grid-row-end: 4;
             display: grid;
-            grid-template-columns: 1fr 2fr;
-            grid-template-rows: 200px 310px;
+            grid-auto-columns: inherit;
+            grid-template-rows: 200px 110px 90px;
 
             &__name {
                 grid-column-start: 2;
@@ -161,9 +161,11 @@ ul {
 
             &__avatar {
                 grid-column-start: 1;
-                grid-column-end: 3;
+                grid-column-end: 2;
                 grid-row-start: 1;
-                grid-row-end: 3;
+                grid-row-end: 4;
+                min-width: 300px;
+                background: $background;
             }
         }
 
@@ -221,7 +223,6 @@ ul {
     grid-row-start: 3;
     grid-row-end: 8;
     display: grid;
-    grid-template-columns: 1fr;
     grid-template-rows: 90px 390px 200px 100px 500px;
 
     &-biography {
@@ -383,7 +384,6 @@ ul {
         font-weight: 300;
         margin-bottom: 30px;
         padding: 0 60px;
-        word-wrap: wrap;
         margin-top: 20px;
     }
 
@@ -392,7 +392,7 @@ ul {
         border: 2px solid $sticker;
         padding: 10px;
         margin: 0 50px;
-        word-wrap: none;
+        word-break: keep-all;
     }
 }
 
@@ -404,7 +404,7 @@ ul {
     grid-row-start: 5;
     grid-row-end: 11;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-auto-columns: minmax(300px, 400px) minmax(400px, 800px);
     grid-template-rows: 200px 100px 500px 100px 500px 310px;
 
     &__title {
@@ -553,6 +553,7 @@ ul {
     &__item {
         &:nth-child(2) {
             position: relative;
+            margin-left: 30px;
 
             &::before {
                 position: absolute;
@@ -572,11 +573,7 @@ ul {
 
         &:first-child {
             font-size: $h2-size;
-            margin-left: 60px;
-        }
-
-        &:last-child {
-            margin-right: 60px;
+            
         }
     }
 }
