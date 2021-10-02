@@ -4,6 +4,7 @@
 @mixin font-poppins {
     font-family: 'Poppins', sans-serif;
 }
+
 // === / Mixins ===
 
 // === Variables ===
@@ -492,6 +493,44 @@ ul {
         grid-row-start: 5;
         grid-row-end: 7;
         padding-left: 60px;
+        display: flex;
+        flex-direction: column;
+
+        &__part {
+            &-react,
+            &-native,
+            &-cms,
+            &-adaptive {
+                display: flex;
+                flex-wrap: wrap;
+
+                &__subtitle {
+                    flex-basis: 100%;
+                }
+
+                &-list {
+                    flex-basis: 100%;
+                }
+            }
+
+            &-react,
+            &-native {
+                &-list {
+                    display: flex;
+                    justify-content: space-evenly;
+                    &__item {
+                        &-image {
+                            position: relative;
+                        }
+
+                        &-link {
+                            visibility: hidden;
+                            position: absolute;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     &-languages {
@@ -573,7 +612,7 @@ ul {
 
         &:first-child {
             font-size: $h2-size;
-            
+
         }
     }
 }

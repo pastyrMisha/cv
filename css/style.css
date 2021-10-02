@@ -583,6 +583,29 @@ ul {
   grid-row-start: 5;
   grid-row-end: 7;
   padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.experience-project__part-react, .experience-project__part-native, .experience-project__part-cms, .experience-project__part-adaptive {
+  display: flex;
+  flex-wrap: wrap;
+}
+.experience-project__part-react__subtitle, .experience-project__part-native__subtitle, .experience-project__part-cms__subtitle, .experience-project__part-adaptive__subtitle {
+  flex-basis: 100%;
+}
+.experience-project__part-react-list, .experience-project__part-native-list, .experience-project__part-cms-list, .experience-project__part-adaptive-list {
+  flex-basis: 100%;
+}
+.experience-project__part-react-list, .experience-project__part-native-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.experience-project__part-react-list__item-image, .experience-project__part-native-list__item-image {
+  position: relative;
+}
+.experience-project__part-react-list__item-link, .experience-project__part-native-list__item-link {
+  visibility: hidden;
+  position: absolute;
 }
 .experience-languages {
   grid-column-start: 1;
