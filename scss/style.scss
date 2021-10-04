@@ -96,14 +96,14 @@ ul {
 .show_caption {
     transition: 0.9s ease;
     opacity: 1;
-    visibility: visible;
+    visibility: visible !important;
     background: #9d63a6d1;
 }
 
 .hide_caption {
     transition: 0.9s ease;
     opacity: 0;
-    visibility: hidden;
+    visibility: hidden !important;
 }
 
 // === / Common ===
