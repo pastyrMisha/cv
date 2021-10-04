@@ -41,6 +41,7 @@ $screen-xl-max: 1499px;
 
 body {
     font-size: 16px;
+    line-height: 22px;
     display: grid;
     grid-auto-columns: minmax(300px, 400px) minmax(400px, 800px);
     // grid-template-rows: 3fr 2fr 1fr 1fr 4fr 1fr 3fr 2fr 1fr;
@@ -90,6 +91,19 @@ h6 {
 
 ul {
     padding-left: 0;
+}
+
+.show_caption {
+    transition: 0.9s ease;
+    opacity: 1;
+    visibility: visible;
+    background: #9d63a6d1;
+}
+
+.hide_caption {
+    transition: 0.9s ease;
+    opacity: 0;
+    visibility: hidden;
 }
 
 // === / Common ===
@@ -147,6 +161,7 @@ ul {
                 margin-bottom: 0;
                 padding-left: 60px;
                 align-self: flex-end;
+                line-height: 55px;
 
             }
 
@@ -497,6 +512,7 @@ ul {
         flex-direction: column;
 
         &__part {
+
             &-react,
             &-native,
             &-cms,
@@ -518,14 +534,34 @@ ul {
                 &-list {
                     display: flex;
                     justify-content: space-evenly;
+                    flex-wrap: wrap;
+
                     &__item {
-                        &-image {
-                            position: relative;
-                        }
+                        width: 230px;
+                        height: 125px;
+                        position: relative;
 
                         &-link {
-                            visibility: hidden;
                             position: absolute;
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            width: 230px;
+                            height: 125px;
+                            top: 0;
+                            visibility: hidden;
+                            
+
+                            &__one {
+                                flex-basis: 150px;
+                                color: #fff;
+                            }
+
+                            &__two {
+                                flex-basis: 75px;
+                                margin-left: 5px;
+                                color: #fff;
+                            }
                         }
                     }
                 }
