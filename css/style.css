@@ -273,6 +273,10 @@ ul {
   padding-left: 0;
 }
 
+.menu_visible {
+  right: 0 !important;
+}
+
 .show_caption {
   transition: 0.9s ease;
   opacity: 1;
@@ -310,7 +314,7 @@ ul {
   display: flex;
   justify-content: space-around;
 }
-.header-navigation__hamburger {
+.header-navigation__hamburger, .header-navigation__close {
   display: none;
 }
 .header-info {
@@ -366,7 +370,7 @@ ul {
   background: #bca4ce;
 }
 .header-info-contacts__title {
-  background: #e0d0e3;
+  background: #f4afcc;
   position: relative;
   color: #fff;
 }
@@ -431,26 +435,60 @@ ul {
   .header-navigation__list {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    order: 1;
-    position: absolute;
-    max-width: 250px;
-    right: 0;
-    top: 70px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    order: 2;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    right: -100%;
+    top: 0;
+    transition: right 0.9s ease 0s;
     margin: 0;
-    padding: 20px 20px;
-    height: auto;
+    padding: 85px 20px 20px;
     font-size: 22px;
-    background: #e0d0e3;
+    background: #e0d0e3bf;
   }
   .header-navigation__list-item {
-    align-self: start;
+    align-self: flex-end;
     margin: 5px 0;
+    padding: 10px;
+    text-align: right;
+    background: #f9ebd9;
+    width: 204px;
   }
   .header-navigation__hamburger {
     display: block;
-    order: 2;
+    cursor: pointer;
+    order: 1;
+    z-index: 5;
     position: relative;
+    text-align: center;
+    padding: 10px;
+    background: #f9ebd9;
+  }
+  .header-navigation__close {
+    display: block;
+    width: 48px;
+    height: 54px;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    position: fixed;
+    z-index: 7;
+    top: 18px;
+    font-weight: 600;
+    right: -100%;
+    margin-right: 20px;
+    padding: 10px;
+    background: #f9ebd9;
+    cursor: pointer;
+  }
+}
+@media (max-width: 320px) {
+  .header-navigation__close {
+    background: none;
   }
 }
 
@@ -469,7 +507,7 @@ ul {
   grid-row-end: 4;
 }
 .about-biography__title {
-  background: #e0d0e3;
+  background: #f4afcc;
   position: relative;
 }
 .about-biography__title::before {
@@ -501,7 +539,7 @@ ul {
 .about-skills-title {
   align-self: flex-start;
   width: 100%;
-  background: #e0d0e3;
+  background: #f4afcc;
   position: relative;
 }
 .about-skills-title::before {
@@ -593,7 +631,7 @@ ul {
   color: #fff;
 }
 .code__title {
-  background: #e0d0e3;
+  background: #f4afcc;
   position: relative;
 }
 .code__title::before {
@@ -664,7 +702,7 @@ ul {
   padding: 30px 0;
 }
 .experience__title h2 {
-  background: #e0d0e3;
+  background: #f4afcc;
   position: relative;
   margin: 0;
   padding: 10px 0 10px 60px;
@@ -688,7 +726,7 @@ ul {
   padding-top: 60px;
 }
 .experience-education__title {
-  background: #e0d0e3;
+  background: #f4afcc;
   position: relative;
 }
 .experience-education__title::before {
@@ -779,7 +817,7 @@ ul {
   padding-top: 60px;
 }
 .experience-languages__title {
-  background: #e0d0e3;
+  background: #f4afcc;
   position: relative;
 }
 .experience-languages__title::before {
@@ -882,7 +920,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 60px 16px 30px;
+    padding: 30px 16px 30px;
   }
   .footer__item {
     line-height: 1;

@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     let currentElem = null;
-
-    const li = document.querySelectorAll('.list').forEach(function (item) {
+    document.querySelectorAll('.list').forEach(function (item) {
 
         item.onmouseover = function (event) {
             if (currentElem) return;
@@ -28,5 +27,19 @@ document.addEventListener('DOMContentLoaded', function () {
             currentElem.classList.add('hide_caption');
             currentElem = null;
         };
-    })
+    }),
+    navList = document.querySelector('.header-navigation__list'),
+    exit = document.querySelector('.header-navigation__close'),
+    burger = document.querySelector('.header-navigation__hamburger');
+    burger.onclick = function () {
+        exit.classList.add('menu_visible');
+        navList.classList.add('menu_visible');
+        burger.style.display = 'none';
+        
+    };
+    exit.onclick = function () {
+        exit.classList.remove('menu_visible');
+        navList.classList.remove('menu_visible');
+        burger.style.display = 'block';
+    } 
 });

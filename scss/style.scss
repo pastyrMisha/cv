@@ -16,7 +16,7 @@ $h5-size: 16px;
 $h6-size: 14px;
 
 $sticker: #f9ebd9;
-$title: #e0d0e3;
+$title: #f4afcc;
 $background: #9d63a6;
 $overlay: #bca4ce;
 
@@ -107,10 +107,16 @@ ul {
     padding-left: 0;
 }
 
+.menu_visible {
+    right: 0 !important;
+    
+}
+
 .show_caption {
     transition: 0.9s ease;
     opacity: 1;
     visibility: visible !important;
+    
     background: #9d63a6d1;
 }
 
@@ -147,7 +153,7 @@ ul {
             display: flex;
             justify-content: space-around;
         }
-        &__hamburger {
+        &__hamburger, &__close {
             display: none;
         }
     }
@@ -286,36 +292,71 @@ ul {
         &-navigation {
             height: 90px;
             justify-content: flex-end;
-            
             &__list {
-                // visibility: hidden;
-                display: flex;
-                flex-direction: column;
-                align-items: flex-end;
-               order: 1;
-               position: absolute;
-               max-width: 250px;
-               right: 0;
-               top: 70px;
+             display: flex;
+            flex-direction: column;
+             justify-content: flex-start; 
+            align-items: flex-start;
+               order: 2;
+               position: fixed;
+               z-index: 5;
+               width: 100%;
+               height: 100%;
+               right: -100%;
+               top: 0;
+               transition: right 0.9s ease 0s;
                margin: 0;
-               padding: 20px 20px;
-               height: auto;
+               padding: 85px 20px 20px;
                font-size: 22px;
-               background: $title;
+               background: #e0d0e3bf;
                &-item {
-                   align-self: start;
+                   align-self: flex-end;
                    margin: 5px 0;
+                   padding: 10px;
+                   text-align: right;
+                   background: $sticker;
+                   width: 204px;
                }
             }
             &__hamburger {
                 display: block;
-                order: 2;
+                cursor: pointer;
+                order: 1;
+                z-index: 5;
                 position: relative;
+                text-align: center;
+                padding: 10px;
+                background: $sticker;
+            }
+            
+            &__close {
+                display: block;
+                width: 48px;
+                height: 54px;
+                font-size: 35px;
+                line-height: 35px;
+                text-align: center;
+                position: fixed;
+                z-index: 7;
+                top: 18px;
+                font-weight: 600;
+                right: -100%;
+                margin-right: 20px;
+                padding: 10px;
+                background: $sticker;
+                cursor:pointer;
+                
             }
         }
     }
+    @media (max-width: 320px) {
+        &-navigation {
+            &__close {
+                background: none;
+            }
+    }
 }
-
+}
 // === / header ===
 // === about ===
 .about {
@@ -851,7 +892,7 @@ ul {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-        padding: 60px 16px 30px;
+        padding: 30px 16px 30px;
 
         &__item {
             line-height: 1;
