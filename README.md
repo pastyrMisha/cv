@@ -1,1 +1,1 @@
-https://pastyrmisha.github.io/rsschool-cv/cv
+https://zvendinov.ru/
